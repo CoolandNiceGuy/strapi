@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "curated_tracks",
+  "info": {
+    "singularName": "curated-track",
+    "pluralName": "curated-tracks",
+    "displayName": "curated-track"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "on_repeat_tracks",
+  "info": {
+    "singularName": "on-repeat-track",
+    "pluralName": "on-repeat-tracks",
+    "displayName": "On-repeat-track"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

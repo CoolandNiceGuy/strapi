@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artist_links",
+  "info": {
+    "singularName": "artist-link",
+    "pluralName": "artist-links",
+    "displayName": "Artist-link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
