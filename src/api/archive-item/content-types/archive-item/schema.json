@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archive_items",
+  "info": {
+    "singularName": "archive-item",
+    "pluralName": "archive-items",
+    "displayName": "Archive-item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}
