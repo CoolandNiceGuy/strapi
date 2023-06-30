@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "archive_items",
+  "collectionName": "misc_archive_items",
   "info": {
-    "singularName": "archive-item",
-    "pluralName": "archive-items",
-    "displayName": "Archive-item"
+    "singularName": "misc-archive-item",
+    "pluralName": "misc-archive-items",
+    "displayName": "Misc-archive-item"
   },
   "options": {
     "draftAndPublish": true
