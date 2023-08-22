@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "image_posts",
+  "collectionName": "home_page_posts",
   "info": {
-    "singularName": "image-post",
-    "pluralName": "image-posts",
-    "displayName": "Image-post",
+    "singularName": "home-page-post",
+    "pluralName": "home-page-posts",
+    "displayName": "Home-page-post",
     "description": ""
   },
   "options": {
@@ -12,9 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "src": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -22,6 +25,9 @@
         "videos",
         "audios"
       ]
+    },
+    "caption": {
+      "type": "text"
     }
   }
 }
